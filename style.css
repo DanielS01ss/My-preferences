@@ -1,0 +1,54 @@
+button{
+    border:none;
+    border-radius: 0.5rem;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color:#fff;
+    font-weight: bold;
+}
+
+.like-btn{
+    background-color:#4b8e00;
+
+}
+.dislike-btn{
+    background-color: red;
+}
+.like-btn:hover{
+    -webkit-box-shadow: -6px -3px 54px 0px rgba(15,212,94,1);
+    -moz-box-shadow: -6px -3px 54px 0px rgba(15,212,94,1);
+    box-shadow: -6px -3px 54px 0px rgba(15,212,94,1);
+    padding: 15px;
+    font-size: 1.8rem;
+}
+.dislike-btn:hover{
+    -webkit-box-shadow: -6px -3px 54px 0px rgba(224,3,14,1);
+    -moz-box-shadow: -6px -3px 54px 0px rgba(224,3,14,1);
+    box-shadow: -6px -3px 54px 0px rgba(224,3,14,1);
+    padding: 15px;
+    font-size: 1.8rem;
+}
+.intro-text{
+    color:green;
+    margin-top: 30px;
+}
+
+.end-msg{
+    color:red;
+}
+
+.disabled{
+    display: none;
+}
+
+
+ul{
+    list-style-type: circle;
+}
+.like-item{
+    color:green;
+}
+.dislike-item{
+    color:red;
+}
